@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="shadow-sm card"
+>
+  <div
+    className="font-weight-bold card-header"
+  >
+    The Wall Street Journal
+  </div>
+  <div
+    className="text-left card-body"
+  >
+    <img
+      className="card-img card-img-bottom h-60"
+      src="https://images.wsj.net/im-280026/social"
+      style={
+        Object {
+          "maxHeight": 300,
+        }
+      }
+    />
+    <p
+      className="font-weight-normal text-muted h-40 py-2"
+    >
+      Tesla meets own guidance for annual production, but valuation still looks hard to justify
+    </p>
+  </div>
+  <div
+    className="text-center card-footer"
+  >
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Read Full Article
+    </button>
+  </div>
+</div>
+`;
